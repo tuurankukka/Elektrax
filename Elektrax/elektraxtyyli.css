@@ -1,0 +1,292 @@
+﻿html
+{
+  position: relative;
+  min-height: 100%;
+}
+
+body
+{
+	background-color: #f4f4f4;
+}
+
+img
+{
+    width: 100%;
+}
+
+header img
+{
+	width: 80%;
+	max-width: 300px;
+}
+
+.box-top-shadow
+{
+    box-shadow: inset 0 7px 9px -7px #000000;
+}
+
+.container-fluid
+{
+	max-width: 960px;
+}
+
+.container-fluid img
+{
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.space
+{
+	padding-bottom: 30px;
+	padding-top: 30px;	
+}
+
+.esitys
+{
+	max-height: 400px;
+	min-height: 200px;
+    object-fit: cover;
+	
+	display: bottom;
+    position: relative;
+    z-index: -1;
+}
+
+hr
+{
+	margin: 0;
+}
+
+/*ARTIKKELIN JA TEKSTIN MUUTOKSET ALKAA*/
+header
+{
+	padding: 10px 10px 10px 10px;
+	font-size: 48px;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+h1, h2, h3, p, ul, ol, h5
+{
+	margin-bottom: 1em;
+	color: #373737;
+}
+
+h6
+{
+	margin-top: 0.3em;
+}
+
+h1, h2, h3, h5, a
+{
+	font-family: 'Allerta', sans-serif;
+}
+
+.alapalkki a, p, footer
+{
+	font-family: 'Crimson Text', serif;
+}
+
+a
+{
+    color: #373737 !important;
+}
+
+article p
+{
+	font-size: 18px;
+}
+
+article
+{
+	max-width: 100%;
+	display: center;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/*ARTIKKELIN JA TEKSTIN MUUTOKSET LOPPUU*/
+
+/*ETUSIVUN KUVALINKKIEN MUUTOKSET ALKAA*/
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+	background-color: white;
+    box-shadow: 10px 4px 8px 0 white, 10px 6px 20px 0 white;
+    text-align: center;
+}
+
+.text-over-img img
+{
+	background-color: white;
+    position: relative;
+    text-align: center;
+    color: white;
+	padding: 25px 25px 25px 25px;
+	margin-bottom: 30px;
+}
+
+.text-over-img img:hover
+{
+	border-color: #373737;
+}
+/*ETUSIVUN KUVALINKKIEN MUUTOKSET LOPPUU*/
+
+/*NAVIGAATIOBARIN MUUTOKSET ALKAA*/
+.bg-light
+{
+	background-color: #f4f4f4 !important;
+	margin-bottom: 3px;
+	padding-bottom: 0;
+}
+
+.collapse.navbar-collapse .navbar-nav>.active>a {
+   color: #ccbd8b !important;
+}
+
+.nav-pills > .active > a:hover,.nav-pills > li > a:hover, .nav-pills .show > .nav-link {
+	color: #ccbd8b !important;
+	background-color: #f4f4f4 !important;
+}
+
+nav .dropdown-item.active, nav .dropdown-item:active {
+  background-color: #eae6df;
+}
+
+.navbar-nav
+{
+	width: 100%;
+}
+
+.dropdown-menu
+{
+	width: 100%;
+	padding-right: 1px;
+	padding-left: 1px;
+}
+
+.dropdown-item:focus {
+  outline-color: #e5e0d8;
+}
+
+.dropdown-menu a
+{
+    font-size: 15px;
+}
+
+nav li
+{
+	width: 100%;
+	text-align: center;
+}
+
+button
+{
+	width: 100%
+}
+
+.navbar-toggler:focus,.navbar-toggler:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+nav li
+{
+	margin-top: 2px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+/*NAVIGAATIOBARIN MUUTOKSET PÄÄTTYY*/
+
+/*TUOTETIETOJEN MUUTOKSET ALKAA*/
+.card-block
+{
+	padding: 3px 10px 10px 10px;
+}
+
+.card-block hr
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.card-header
+{
+	background-color: #e5e0d8;
+}
+/*TUOTETIETOJEN MUUTOKSET LOPPUU*/
+
+/*KARTAN MUUTOKSET ALKAA*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+	min-height: 250px;
+    height:0;
+}
+
+.map-responsive iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: 2px;
+}
+/*KARTAN MUUTOKSET LOPPUU*/
+
+/*ALAPALKIN JA FOOTERIN MUUTOKSET ALKAA*/
+.row.alapalkki
+{
+	margin: 0;
+	margin-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #eae6df;
+	text-align: center;
+}
+                   
+.alapalkki img
+{
+    opacity: 0.5;
+}
+
+.alapalkki h5
+{
+	margin-bottom: 0.4em;
+}
+
+.alapalkki h2
+{
+	margin-bottom: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #eae6df;
+  margin-right: 0;
+  text-align: center;
+}
+/*ALAPALKIN JA FOOTERIN MUUTOKSET LOPPUU*/
+
+/*TABLETTI & PÖYTÄKONEEN MUUTOKSET ALKAA*/
+@media (min-width: 768px)
+{
+.nav-pills > .active > a:hover,.nav-pills > li > a:hover, .nav-pills .show > .nav-link {
+   color: #ccbd8b !important;
+   -moz-box-shadow:    inset 0 0 3px #373737;
+   -webkit-box-shadow: inset 0 0 3px #373737;
+   box-shadow:         inset 0 0 3px #373737;
+	background-color: #ededed !important;
+}
+}
+/*TABLETTI & PÖYTÄKONEEN MUUTOKSET LOPPUU*/
+

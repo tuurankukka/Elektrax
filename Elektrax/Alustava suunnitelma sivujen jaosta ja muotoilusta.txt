@@ -1,0 +1,11 @@
+Etusivu - Tomi - 1 column
+Tuotteet - Tomi - 2 column
+Tietoa Meistä - Elli - 1 column
+Yhteystiedot - Santeri - 2 column
+Henkilöstö - Elli - 3/4 column
+
+
+Tomi Korkalainen :: + :: ulkoasun toteutus, tuotteet- ja etusivujen koosto 
+Elli Savola :: 0 :: ulkoasun osittainen toteutus, henkilöstö- ja tietoa meistä sivujen koosto
+Santeri Tuusa :: 0 :: ulkoasun osittainen toteutus, yhteystiedot-sivun koosto
+Yhdessä :: ulkoasun suunnittelu, julkaisu, kuvien editointi
